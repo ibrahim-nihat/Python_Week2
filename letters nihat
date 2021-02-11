@@ -1,0 +1,17 @@
+#ibrahim nihat
+w1 = set(input("enter the first word:"))
+w2 = set(input("enter the second word:"))
+slice1 = list (w1 & w2)
+slice1.sort()
+a  = "".join(slice1)
+
+d1 =list(w1 - w2)
+d1.sort()
+b = "".join(d1)
+
+d2 = list(w2 - w1)
+d2.sort()
+c ="".join(d2)
+
+list1 = [a,b,c]
+print(list1)
