@@ -1,0 +1,8 @@
+#ibrahim nihat
+s = input("enter the sentence")
+d = dict()
+for x in  range(0,len(s)):
+    if s[x] != " ":
+        d.update({s[x] : s.count(s[x])})
+
+print(sorted(d.items()))
