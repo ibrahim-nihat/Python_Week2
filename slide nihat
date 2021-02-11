@@ -1,0 +1,5 @@
+#ibrahim nihat
+liste = input('enter list elements:').split(",")
+n = int(input("enter your number"))
+list2 =liste[-n:] + liste[:-n]
+print(list2)
